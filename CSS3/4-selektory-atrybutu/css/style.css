@@ -1,0 +1,20 @@
+[title]{
+    color: mediumvioletred;
+}
+[title="About me"]{
+    color: fuchsia;
+}
+[title~="me"]{
+    color: gold;
+}
+[title*="Con"]{
+    background-color: lightskyblue;
+}
+
+[title^="Section"]{
+    color: powderblue;
+}
+
+[title$="skills"]{
+    background-color: violet;
+}
