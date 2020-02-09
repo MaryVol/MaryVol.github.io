@@ -1,0 +1,11 @@
+#pierwszy::before{
+    content: "dodatkowa treść przed paragrafem";
+    color: hotpink;
+    background-color: indigo;
+}
+
+#drugi::after{
+    content: "treść za drugim paragrafem";
+    color: lavender;
+    background-color: lightcoral;
+}
