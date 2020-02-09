@@ -1,0 +1,32 @@
+#p1{
+    background-color: rosybrown;
+}
+
+#p2{
+    background-color: salmon;
+}
+
+#inline-elements p{
+    display: inline;
+}
+
+#inline-p1{
+    background-color: sandybrown;
+}
+
+#inline-p2{
+    background-color: seagreen;
+}
+
+#inline-block-elements li{
+    display: inline-block;
+    width: 100px;
+    height: 30px;
+    padding: 5px;
+    margin: 5px;
+    background-color: skyblue;
+}
+
+#display-none{
+    display: none;
+}
