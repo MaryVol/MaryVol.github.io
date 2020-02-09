@@ -17,3 +17,6 @@
 .customer:nth-last-child(2){
     color: mediumaquamarine;
 }
+.customer:nth-last-child(2n+1){
+    background-color: mediumpurple;
+}
