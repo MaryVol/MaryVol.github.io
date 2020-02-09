@@ -1,0 +1,19 @@
+#send:hover{
+    background-color: lightseagreen;
+}
+#name:focus{
+    border: 5px solid lightskyblue;
+    background-color: lightslategray;
+}
+.customer{
+    color: lime;
+}
+.customer:first-child{
+    color: magenta;
+}
+.customer:nth-child(4){
+    background-color: maroon;
+}
+.customer:nth-last-child(2){
+    color: mediumaquamarine;
+}
