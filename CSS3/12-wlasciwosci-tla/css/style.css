@@ -1,0 +1,11 @@
+#background-img{
+    background-color: rgb(241, 169, 193);
+    background-image: url(../img/truskawka.jpg);
+    background-repeat: repeat-y;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+p{
+    color: seashell;
+}
