@@ -1,0 +1,22 @@
+*{
+    color: green;
+}
+p{
+    color: red;
+}
+#kasia{
+    background-color: yellow;
+    color: teal;
+}
+div .lorak{
+    color: thistle;
+}
+a > span{
+    background-color: violet;
+}
+ul a {
+    color: blue;
+}
+li#pierwszy+li{
+    background-color: hotpink;
+}
