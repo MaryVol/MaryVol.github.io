@@ -1,0 +1,15 @@
+p{
+    background-color: bisque !important;
+}
+
+p#paragraph{
+    background-color: rgb(71, 243, 255);
+}
+
+
+p.paragraph{
+    background-color: tomato;
+}
+p{
+    background-color: yellowgreen;
+}
