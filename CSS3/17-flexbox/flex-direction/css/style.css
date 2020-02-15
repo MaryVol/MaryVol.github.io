@@ -5,15 +5,17 @@
     border: 1px solid olive;
     padding: 10px;
     margin: 5px;
-    flex-basis: 10%;
+    /* max-width: 200px; */
 }
 .flex-item:nth-last-of-type(odd){
     background-color: olive;
     color: darkkhaki;
-    flex-basis: 20%;
 }
 
 .container{
     border: 2px dashed darkcyan;
     display: flex;
+    /* flex-direction: row-reverse; */
+    /* flex-direction: column; */
+    flex-direction: column-reverse;
 }
