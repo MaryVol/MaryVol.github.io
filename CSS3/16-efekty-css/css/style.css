@@ -1,0 +1,40 @@
+img{
+    height: 250px;
+    width: auto;
+    transition: all 1s;
+}
+
+.rotate img:hover{
+    transform: rotate(360deg);
+}
+
+.translate img:hover{
+    transform: translate(200px, 300px);
+}
+
+.scale img:hover{
+    transform: scale(.5);
+}
+
+.animation img:hover{
+    animation-name: hey;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes hey{
+    0%,100%{
+        height: 300px;
+        border: 5px solid khaki;
+        margin-left: 100px;
+    }
+    20%{
+        height: 150px;
+        margin-left: 250px;
+    }
+    50%{
+        height: 400px;
+        border-radius: 50%;
+        border: 10px dotted darkcyan;
+    }
+}
