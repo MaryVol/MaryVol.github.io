@@ -5,7 +5,7 @@
     border: 1px solid olive;
     padding: 10px;
     margin: 5px;
-    flex-basis: 30%;
+    flex-basis: 10%;
 }
 .flex-item:nth-last-of-type(odd){
     background-color: olive;
@@ -15,6 +15,9 @@
 .container{
     border: 2px dashed darkcyan;
     display: flex;
-   /* flex-wrap: wrap; */
-   flex-wrap: wrap-reverse;
+    flex-wrap: wrap;
+    /* justify-content: flex-start; */
+    /* justify-content: center; */
+    /* justify-content: space-between; */
+    justify-content: space-evenly;
 }
