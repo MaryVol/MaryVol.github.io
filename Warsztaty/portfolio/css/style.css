@@ -159,6 +159,11 @@ footer p{
     padding: 20px;
     display: inline-block;
 }
+.gallery img:hover{
+    opacity: 0.5;
+    transition: 1s;
+    transform: scale(1.2);
+}
 
 
 @media (max-width: 960px) {
