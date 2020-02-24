@@ -11,20 +11,13 @@
 
     <section id="sectionFirst">
 
-        <header>
-            <p>paragraf</p>
-            <span>span</span>
-            <!-- Do zadania 6 dodajemy tekst w nagłówku H1 - "Nagłówek strony" -->
-            <h1 id="main-header">Header</h1>
-        </header>
-
         <div id="parFirst">
-            <p id="paragraf" onclick="alert('z paragrafu');">Tekst w tym akapicie.</p>
+            <p id="paragraf">Tekst w tym akapicie.</p>
             <!-- W 6 zadaniu dodajemy do linku poniżej atrybut onclick="alert('kliknięto link');" -->
             <a class="link" href="#">Akapit Link 1</a><br>
             <div>
                 <button contenteditable="true" id="btn-hotel">przycisk1</button>
-                <button>przycisk2</button>
+                <button onclick="funkcja1()">przycisk2</button>
                 <button>przycisk3</button>
                 <button>przycisk4</button>
             </div>
@@ -33,7 +26,7 @@
         </div>
 
         <div id="parSecond">
-            <p>Tekst w tym akapicie.</p>
+            <p id="mainParagraf">Tekst w tym akapicie.</p>
         </div>
 
         <div contenteditable="true">
@@ -73,13 +66,14 @@
 
 
     </section>
+<div class="input-form">
+    <input type="text">
+    <input type="taext">
+    <input type="text">
+    <input type="text">
+</div>
 
-    <input type="text">
-    <input type="text">
-    <input type="text">
-    <input type="text">
-
-    <script src="js/1-model-dom.js"></script>
+    <script src="js/6-zdarzenia-events.js"></script>
 </body>
 
 </html>
