@@ -7,7 +7,7 @@ header{
 }
 .container{
     width: 1040px;
-    height:inherit;
+    height: inherit;
 }
 h1,h2{
     text-transform: uppercase;
