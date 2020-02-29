@@ -1,0 +1,14 @@
+body {
+  margin: 0;
+  font-family: 'Lato', sans-serif;
+}
+.formularz{
+  display: block;
+  border: none;
+  border-bottom: 2px solid royalblue;
+  margin: 10px;
+  font-size: medium;
+}
+label{
+  display: block;
+}

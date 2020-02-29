@@ -20,6 +20,16 @@ $(function () {
 			$(this).css("color", "inherit");
 		}
 	});
+	$('p').click( () => {
+		alert(123)
+	})
+	$('p').on({
+		'click':function(){
 
+		},
+		'mouseover':function(){
+
+		}//dodajemy dwa zdarzenia do jednego elementu p
+	})
 
 });

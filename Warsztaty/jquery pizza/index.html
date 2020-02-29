@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Warsztaty - HTML5 w praktyce</title>
+  <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <form id="pizza-order">
+    <input type="text" id="name" placeholder="Imię" class="formularz">
+    <input type="text" id="surname" placeholder="Nazwisko" class="formularz">
+    <input type="text" id="num" placeholder="Nr domu" class="formularz">
+    <input type="text" id="kod" placeholder="Kod pocztowy" class="formularz">
+    <input type="text" id="city" placeholder="Miasto" class="formularz">
+    <select name="pizza" id="pizza" class="formularz" >
+      <option value="0">Wybierz pizzę</option>
+      <option value="1" name="marghaerita">Marghaerita</option>
+      <option value="2" name="wege">Wege</option>
+      <option value="3" name="wloska">Włoska</option>
+      <option value="4" name="pomidorowa">Pomidorowa</option>
+      <option value="5" name="hawaiska">Hawaiska</option>
+    </select>
+    <span id="price">0 PLN</span>
+    <label>
+      <input type="checkbox" id="sospomidorowy" >
+      <span>Sos pomidorowy</span>
+    </label>
+    <label>
+      <input type="checkbox" id="sosczosnkowy">
+      <span>Sos czosnkowy</span>
+    </label>
+    <label>
+      <input type="checkbox" value="zgoda" required>
+      <span>Zgoda na przetwarzanie danych</span>
+    </label>
+    <input type="submit" value="zamow" id="btn">
+
+    <ul id="errors"></ul>
+
+  </form>
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="js/jquery-3.1.1.min.js"></script>  
+<script src="js/main.js"></script>
+</body>
+</html>
