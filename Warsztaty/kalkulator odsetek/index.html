@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <label for="wplata">Wplata w PLN</label>
+    <input type="number" name="wplata" id="wplata">
+    <label for="kapitalizacja">Czestotliwosc kapitalizacji</label>
+    <select name="kapitalizacja" id="kapitalizacja">
+        <option value="12">Rocznie</option>
+        <option value="1">miesiecznie</option>
+        <option value="4">kwartalnie</option>
+    </select>
+    <label for="ilosc-lat">liczba lat</label>
+    <input type="number" name="ilosc-lat" id="ilosc-lat">
+    <label for="stopa-zwrotu">stopa zwrotu w %</label>
+    <input type="number" name="stopa-zwrotu" id="stopa-zwrotu">
+    <input type="submit" value="Oblicz" onclick="oblicz()">
+    <p id="result"></p>
+    
+    <a href="#en" id="lang-pl" onclick="polish()">pl</a>
+    <a href="#pl" id="lang-en" onclick="english()">en</a>
+    
+
+
+
+    <script src="index.js"></script>
+</body>
+</html>
