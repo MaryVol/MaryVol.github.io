@@ -1,0 +1,84 @@
+@import "zmienne";
+
+body{
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    color: $color-white;
+}
+header{
+    background-image: url(../img/background.png);
+    @include background;
+}
+.main-navigation{
+    color:white;
+}
+.display-flex{
+    display: flex;
+    align-items: baseline;
+}
+.fa-university{
+    font-size: 40px;
+    color: $color-yellow;
+}
+.telephone{
+    display: flex;
+    flex-direction: column;
+}
+span .call-us{
+    font-size: x-small;
+    align-self: center;
+}
+.full-width{
+    width: 100%;
+}
+.yellow-text{
+    color: $color-yellow;
+}
+h2{
+    font-size: 22px;
+}
+form{
+    background-color: $color-blue;
+    margin-top: 20px;
+
+    input{
+        margin-top: 5px;
+    }
+    textarea{
+        margin-top: 5px;
+        resize: none; 
+    }
+}
+.main-content{
+    margin-top: 100px;
+    padding-bottom: 50px;
+}
+fieldset{
+    padding: 10px;
+}
+.btn-custom{
+    background-color: $color-yellow;
+    margin-top: 10px;
+    border-radius: unset;
+    font-weight: 600;
+}
+.form-name{
+    font-size: 18px;
+}
+footer{
+    background-color: $color-gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    p{
+        font-weight: 200;
+        text-align: center;
+    }
+}
+.justification{
+    display: flex;
+    justify-content: space-around;
+}
+.contact{
+    text-align: center;
+}

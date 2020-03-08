@@ -1,0 +1,34 @@
+@import "zmienne";
+
+ul{
+    background-color: $base-color;
+    font-style: $base-font-family;
+    text-decoration: none;
+}
+.zmienne{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/e/e0/SNice.svg);
+    @include background-image;
+    font-family: $base-font-family;
+    font-size: $base-font-size;
+    padding: $base-font-size;
+    border: 6px solid yellow;
+    ul{
+        background-color: rgba(255, 217, 0, 0.247);
+        li{
+            font-weight: 800;
+            a{
+                background-color: gray;
+                color: $base-color;
+                text-decoration: none;
+                &:hover{
+                    color:white;
+                }
+                &:focus{
+                    color: greenyellow;
+                }
+
+            }
+        }
+    }
+}
+
