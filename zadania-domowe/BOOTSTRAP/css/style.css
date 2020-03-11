@@ -27,3 +27,12 @@ hr{
 .row{
     text-align: -webkit-center;
 }
+.accordion{
+    width: 100%;
+}
+.btn-link{
+    color: orange;
+}
+.btn-link:hover{
+    color: darkorange;
+}
