@@ -11,84 +11,87 @@
 </head>
 <body>
     <header>
-        <div class="container">
-            <nav>
-                <ul>
-                    <li href="#services">services</li>
-                    <li href="#portfolio">portfolio</li>
-                    <li href="#about">about</li>
-                    <li href="#team">team</li>
-                    <li href="#contact">contact</li>
-                </ul>
-            </nav>
-            <div class="main-text">
-                <h3>Welcome to our studio!</h3>
-                <h2>IT's NICE TO MEET YOU</h2>
-                <a class="btn" href="#about">tell me more</a>
+        <nav class="navbar sticky-top justify-end">
+            <ul class="nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#services">Services</a>
+                </li> 
+                <li class="nav-item">
+                    <a class="nav-link" href="#portfolio">portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#about">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#team">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">Contact</a>
+                </li>
+            </ul>
+        </nav>
+            <div class="container">
+                <div class="row justify-center">
+                    <div class="main-text">
+                        <h2>Welcome To Our Studio!</h2>
+                        <h1>it's nice to meet you</h1>
+                        <button type="button" class="btn btn-warning btn-color">tell me more</button>
+                    </div>
+                </div>
             </div>
-        </div>
-    </header>
+    </header> 
     <section class="services">
-        <a name="services"></a>
-        <h4>services</h4>
-        <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-        <div class="items">
-            <div class="wrapper">
-                <i class="fas fa-shopping-cart"></i>
-                <h6>E-commerce</h6>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, quaerat! Temporibus tempore, possimus et modi suscipit est, doloribus aspernatur architecto harum ducimus eaque tempora quis aperiam fuga doloremque? Ad, laudantium?</p>
-            </div>
-            <div class="wrapper">
-                <i class="fas fa-laptop"></i>
-                <h6>Responsive Design</h6>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, quaerat! Temporibus tempore, possimus et modi suscipit est, doloribus aspernatur architecto harum ducimus eaque tempora quis aperiam fuga doloremque? Ad, laudantium?</p>
-            </div>
-            <div class="wrapper">
-                <i class="fas fa-lock"></i>
-                <h6>Web Security</h6>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus, quaerat! Temporibus tempore, possimus et modi suscipit est, doloribus aspernatur architecto harum ducimus eaque tempora quis aperiam fuga doloremque? Ad, laudantium?</p>
-            </div>
-        </div>
-    </section>
-    <section class="portfolio">
+        <a href="" name="services"></a>
         <div class="container">
-            <a href="" name="portfolio"></a>
-            <h4>portfolio</h4>
-            <h5>Lorem ipsum dolor sit amet consectetur.</h5>
-            <div class="gallery">
-                <img src="img/portfolio/01-thumbnail.jpg">
-                <img src="img/portfolio/02-thumbnail.jpg">
-                <img src="img/portfolio/03-thumbnail.jpg">
-
-                <div class="wrapper-item">
-                    <h6>Threads<br><span>Illustration</span></h6>
+            <div class="row justify-center">
+                <div class="section-header">
+                    <h3>Services</h3>
+                    <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit</small>
                 </div>
-                <div class="wrapper-item">
-                    <h6>Explore<br><span>Graphic Design</span></h6>
+                <div class="section-elements">
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="item-wrapper">
+                            <i class="fas fa-shopping-cart circle"></i>
+                            <div class="text-wrapper">
+                                <h4>E-commerce</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, cum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, pariatur?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="item-wrapper">
+                            <i class="fas fa-laptop circle"></i>
+                            <div class="text-wrapper">
+                                <h4>Responsive design</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, cum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, pariatur?</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-sm-4 col-md-4 col-lg-4 col-xl-4">
+                        <div class="item-wrapper">
+                            <i class="fas fa-lock circle"></i>
+                            <div class="text-wrapper">
+                                <h4>Web security</h4>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique, cum! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatem, pariatur?</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <div class="wrapper-item">
-                    <h6>Finish<br><span>Identity</span></h6>
-                </div>
-                
-                <img src="img/portfolio/04-thumbnail.jpg">
-                <img src="img/portfolio/05-thumbnail.jpg">
-                <img src="img/portfolio/06-thumbnail.jpg">
-
-                <div class="wrapper-item">
-                    <h6>Lines<br><span>Branding</span></h6>
-                </div>
-                <div class="wrapper-item">
-                    <h6>Southwest<br><span>Website Design</span></h6>
-                </div>
-                <div class="wrapper-item">
-                    <h6>Window<br><span>Photography</span></h6>
                 </div>
             </div>
         </div>
+    </section>   
+    <section class="portfolio">
+        <a href="" name="portfolio"></a>
+        <div class="container">
+            <div class="row justify-center">
+                <div class="section-header">
+                    <h3>Portfolio</h3>
+                    <small>Lorem ipsum dolor sit, amet consectetur adipisicing elit</small>
+                </div> 
+            </div>
+        </div>
     </section>
-    
-
-
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
