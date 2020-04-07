@@ -1,0 +1,11 @@
+$font: 'open sans';
+$color-blue: #001d8a;
+$color-yellow: #ecd407;
+$color-gray: #292929;
+$color-white: white;
+
+@mixin background {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

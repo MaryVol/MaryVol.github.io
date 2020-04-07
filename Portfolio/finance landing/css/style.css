@@ -1,0 +1,79 @@
+body {
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  color: white; }
+
+header {
+  background-image: url(../img/background.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.main-navigation {
+  color: white; }
+
+.display-flex {
+  display: flex;
+  align-items: baseline; }
+
+.fa-university {
+  font-size: 40px;
+  color: #ecd407; }
+
+.telephone {
+  display: flex;
+  flex-direction: column; }
+
+span .call-us {
+  font-size: x-small;
+  align-self: center; }
+
+.full-width {
+  width: 100%; }
+
+.yellow-text {
+  color: #ecd407; }
+
+h2 {
+  font-size: 22px; }
+
+form {
+  background-color: #001d8a;
+  margin-top: 20px; }
+  form input {
+    margin-top: 5px; }
+  form textarea {
+    margin-top: 5px;
+    resize: none; }
+
+.main-content {
+  margin-top: 100px;
+  padding-bottom: 50px; }
+
+fieldset {
+  padding: 10px; }
+
+.btn-custom {
+  background-color: #ecd407;
+  margin-top: 10px;
+  border-radius: unset;
+  font-weight: 600; }
+
+.form-name {
+  font-size: 18px; }
+
+footer {
+  background-color: #292929;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  footer p {
+    font-weight: 200;
+    text-align: center; }
+
+.justification {
+  display: flex;
+  justify-content: space-around; }
+
+.contact {
+  text-align: center; }
