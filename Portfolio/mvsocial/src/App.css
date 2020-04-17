@@ -1,0 +1,9 @@
+.wrapper{
+  font-family: 'Raleway', sans-serif;
+  display: grid;
+  grid-template-columns: 3fr 9fr;
+  grid-template-rows: 1fr;
+  grid-gap: 10px;
+  grid-template-areas: "profile content";
+  background-attachment: fixed;
+}
