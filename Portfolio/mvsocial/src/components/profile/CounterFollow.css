@@ -1,0 +1,45 @@
+.follow{
+    background-color: #fe805d;
+    font-family: 'Raleway', sans-serif;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    width: 80px;
+    height: 30px;
+    font-size: medium;
+    margin-top: 10px;
+
+}
+.follow:hover{
+    background-color: #fdc2b100;
+    border: #fe805d 1px solid;
+    transition: 0.5s;
+    color: #fe805d;
+}
+.follow:focus{
+    outline: none;
+}
+.numberFolowers{
+    margin-top: 10px;
+}
+.likePanel{
+    margin-top: 10px;
+}
+.btnLike{
+    border: none;
+    background-color: rgba(169, 169, 169, 0);
+    color: rgb(187, 2, 2);
+    font-size: 14px;
+    cursor: pointer;
+}
+.btnLike:focus{
+    outline: none;
+}
+.btnLike:hover{
+    transform: scale(1.5);
+    transition: 0.5s;
+}
+.btnLike:active{
+    transform: rotateY(180deg);
+}
+
