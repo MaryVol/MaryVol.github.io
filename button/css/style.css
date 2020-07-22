@@ -6,6 +6,7 @@
   width: 100px;
   height: 100px;
   border: none;
+  font-size: 50%;
   cursor: pointer;
   background-color: rgb(181, 0, 0);
   color: #ffff;
@@ -23,4 +24,7 @@
 }
 #btn:active {
   transform: scale(1);
+}
+#btn:focus {
+  outline: none;
 }
