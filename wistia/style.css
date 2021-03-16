@@ -1,0 +1,30 @@
+p {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+hgroup {
+  font-family: "Roboto", sans-serif;
+}
+header {
+  background-color: #1e64f0;
+  color: white;
+}
+.nav img {
+  width: 132px;
+  margin: 30px;
+}
+.main-info-text h2 {
+  font-weight: 300;
+  padding: 15px;
+}
+.main-info-text p {
+  font-weight: 200;
+  padding: 15px;
+}
+.main-info img {
+  width: 500px;
+}
+.main-info {
+  display: flex;
+  margin-left: 30px;
+  margin-top: 80px;
+}
